@@ -1,5 +1,7 @@
 body {
   text-align: center;
+  margin: 0 8% 0 8%;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/81Fh7selSxL.jpg);
 }
 
 img {
@@ -10,5 +12,22 @@ img {
 }
 
 ul {
-  list-style-position: inside;
+  list-style-position: outside;
+  text-align: left;
+}
+
+footer {
+  padding: 3% 0 5% 0;
+  background-color: lightgrey;
+}
+
+
+.text-section {
+  background-color: grey;
+  padding-top: 30px;
+}
+
+.timeline-section {
+  padding: 0 20% 8% 20%;
+  font-size: 24px;
 }
